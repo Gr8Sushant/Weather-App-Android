@@ -4,28 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/_540030"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
-    <ImageView
-        android:id="@+id/background"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/weather" />
 
     <Button
         android:id="@+id/showButton"
         android:layout_width="0dp"
         android:layout_height="48dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginStart="32dp"
         android:layout_marginTop="200dp"
         android:layout_marginEnd="32dp"
         android:backgroundTint="#FF5722"
@@ -35,12 +23,8 @@
         android:text="Show Weather"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/background"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/background"
         app:layout_constraintTop_toBottomOf="@+id/logo"
-        app:layout_constraintVertical_bias="0.058"
         app:strokeColor="#FF5722" />
 
 
@@ -48,6 +32,7 @@
         android:id="@+id/logo"
         android:layout_width="120dp"
         android:layout_height="120dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline2"
@@ -68,8 +53,10 @@
         android:layout_height="100dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
