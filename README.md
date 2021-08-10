@@ -1,2 +1,2 @@
 # Weather-App-Android
-Android weather app 
+Android weather app using OpenWeatherAPI
