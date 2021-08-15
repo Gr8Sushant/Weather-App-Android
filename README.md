@@ -1,2 +1,8 @@
 # Weather-App-Android
-Android weather app using OpenWeatherAPI
+  
+> Constraint layout & Retrofit 📲
+
+
+### Project Snapshot
+
+![plot](./snapshots/1.jpg)
